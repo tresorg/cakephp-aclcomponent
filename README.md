@@ -13,11 +13,11 @@ Pass in the array of permissions to the component after the user has been detect
 * This component restricts access to controller methods. 
 * Keep the permissions in an easy to see & test PHP array. 
 * Load the component in the AppController, and pass it the permissions the user requires. 
-* Wildcard the whole app or controller!
+* Wildcard the whole app or controller for specific user groups!
 
 ## Using
 
-```
+```PHP
  // somewhere you keep a $permissions array:
  $permissions = [
      'admin' => '*', // admins can access all controllers & all methods
