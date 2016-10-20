@@ -8,7 +8,7 @@ Handle requests to your Cake3 controller methods based on a permissions array.
 
 ## About 
 
-This component uses a less-is-more principle. You pass in the array of permissions to the component after the user has been detected by the AuthComponent.
+Pass in the array of permissions to the component after the user has been detected by the AuthComponent.
 
 * This component restricts access to controller methods. 
 * Keep the permissions in an easy to see & test PHP array. 
