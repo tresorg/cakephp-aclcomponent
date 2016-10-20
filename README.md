@@ -18,7 +18,7 @@ Pass in the array of permissions to the component after the user has been detect
 ## Using
 
 ```PHP
- // somewhere you keep a $permissions array:
+ // keep a $permissions array, somewhere, use a db or flat-file:
  $permissions = [
      'admin' => '*', // admins can access all controllers & all methods
      'customer' => [
@@ -48,6 +48,7 @@ For small apps you might keep the role as a string in your db, but larger applic
 * tests
 
 ## Contribute
+please do! 
 fork and pr
 
 
