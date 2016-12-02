@@ -17,7 +17,7 @@ class AclComponent extends Component
       $this->controllerPermissions = $config;
    }
 
-   public function beforeFilter(Event $event)
+   public function startup(Event $event)
    {
       $this->controller = $this->_registry->getController();
       $this->allowedActions = $this->Auth->allowedActions;
