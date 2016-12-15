@@ -1,10 +1,13 @@
 # cakephp-aclcomponent
 
-CakePHP3 does not come with ACL anymore. 
-For those of us fond with this, some might remember the complications with the extra 3 database tables, 
-difficulties testing the system, etc. 
+## ACL without complications, based on a permissions array.
 
 Handle requests to your Cake3 controller methods based on a permissions array.
+
+CakePHP version 3 does not come with ACL anymore. 
+For those of us fond of this, some might remember the complications with the extra 3 database tables, 
+difficulties testing the system, etc. 
+
 
 ## About 
 
@@ -48,7 +51,7 @@ For small apps you might keep the role as a string in your db, but larger applic
 * tests
 
 ## Contribute
-please do! 
+if you see something you need, please do! 
 fork and pr
 
 
