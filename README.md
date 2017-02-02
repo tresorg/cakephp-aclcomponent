@@ -45,13 +45,7 @@ Pass in the array of permissions to the component after the user has been detect
 For small apps you might keep the role as a string in your db, but larger applications will require a users.group_id and a groups table. The same strategy applies, just use the groups.name value. 
 
 
-## Todo, 
-
-* package as a plugin, publish @packagist
-* tests
-
 ## Contribute
-if you see something you need, please do! 
 fork and pr
 
 
