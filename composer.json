@@ -1,0 +1,7 @@
+{
+    "name": "tresorg/cakephp-aclcomponent",
+    "description": "ACL in CakePHP 3 without complications, based on a permissions array.",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    }
+}
